@@ -1,5 +1,7 @@
 // TC: SC: O(n)
 
+import java.util.HashMap;
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int slow = 0;

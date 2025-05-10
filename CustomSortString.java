@@ -1,6 +1,8 @@
 //TC: O(m+n)
 //SC: O(n)
 
+import java.util.HashMap;
+
 class Solution {
     public String customSortString(String order, String s) {
         HashMap<Character, Integer> map = new HashMap<>();
